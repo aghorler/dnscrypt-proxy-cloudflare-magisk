@@ -22,7 +22,7 @@
 ## The proxy will automatically pick the fastest, working servers from the list.
 ## Remove the leading # first to enable this; lines starting with # are ignored.
 
-# server_names = ['scaleway-fr', 'google', 'yandex']
+server_names = ['cisco']
 
 
 ## List of local addresses and ports to listen to. Can be IPv4 and/or IPv6.
@@ -57,10 +57,10 @@ doh_servers = true
 require_dnssec = false
 
 # Server must not log user queries (declarative)
-require_nolog = true
+require_nolog = false
 
 # Server must not enforce its own blacklist (for parental control, ads blocking...)
-require_nofilter = true
+require_nofilter = false
 
 
 
