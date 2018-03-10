@@ -1,6 +1,6 @@
 # DNSCrypt Proxy 2 for Android (Cisco-only)
 
-*Fork notice* - This is a very simple fork that makes DNSCrypt Proxy 2 use Cisco (OpenDNS) servers only.
+**Fork notice** - This is a very simple fork that makes *DNSCrypt Proxy 2* use Cisco (OpenDNS) servers only.
 
 A flexible DNS proxy, with support for modern encrypted DNS protocols such as [DNSCrypt v2](https://github.com/DNSCrypt/dnscrypt-protocol/blob/master/DNSCRYPT-V2-PROTOCOL.txt) and [DNS-over-HTTP/2](https://tools.ietf.org/html/draft-ietf-doh-dns-over-https-03).
 
@@ -35,4 +35,5 @@ A flexible DNS proxy, with support for modern encrypted DNS protocols such as [D
 
 ## Credit
 [jedisct1](https://github.com/jedisct1)
+
 [Affif Mukhlashin (bluemeda)](https://github.com/bluemeda)
