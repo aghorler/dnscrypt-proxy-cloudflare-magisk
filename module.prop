@@ -1,6 +1,6 @@
 id=dnscrypt-proxy-cisco
 name=DNSCrypt-Proxy 2 (Cisco-only)
-version=v2.1.3
+version=v2.1.4
 versionCode=9
 author=aghorler
 description=A Cisco-only fork of bluemeda's DNSCrypt Proxy 2 for Android Magisk module.
