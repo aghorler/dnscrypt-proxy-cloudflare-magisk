@@ -1,8 +1,9 @@
 # DNSCrypt Proxy 2 for Android (Cisco-only)
 
-**Fork notice** - This is a very simple fork that makes *DNSCrypt Proxy 2* use Cisco (OpenDNS) servers only.
+**Fork notice** - This is a very simple fork that makes *DNSCrypt Proxy 2* use Cloudflare servers only.
 
 A flexible DNS proxy, with support for modern encrypted DNS protocols such as [DNSCrypt v2](https://github.com/DNSCrypt/dnscrypt-protocol/blob/master/DNSCRYPT-V2-PROTOCOL.txt) and [DNS-over-HTTP/2](https://tools.ietf.org/html/draft-ietf-doh-dns-over-https-03).
+
 
 ## Magisk Module
 - Download zip file and flash it in Magisk Manager App or in Recovery.
@@ -14,11 +15,10 @@ A flexible DNS proxy, with support for modern encrypted DNS protocols such as [D
 - Configuration located on `/system/etc/dnscrypt-proxy/dnscrypt-proxy.toml`
 - For more detailed configuration please refer to [official documentation](https://github.com/jedisct1/dnscrypt-proxy/wiki/Basic-dnscrypt-proxy.toml-editing)
 
+
 ## Changelog
-
-### v2.1.4 - 03.24.2018
-* Minor changes for fork
-
+### v2.2.0 - 04.04.2018
+* Update binary files to 2.0.8
 ### v2.1.3 - 03.18.2018
 * __If you have previous version, please uninstall it first then reinstall it again or you can change listen port manually in `dnscrypt-proxy.toml` file.__
 * Fix Tethering Client cannot Resolve DNSCrypt
@@ -39,6 +39,7 @@ A flexible DNS proxy, with support for modern encrypted DNS protocols such as [D
 ### v1.0 - 02.27.2018
 * Initial release
 * dnscrypt-proxy v2.0.5
+
 
 ## Credit
 [jedisct1](https://github.com/jedisct1)
