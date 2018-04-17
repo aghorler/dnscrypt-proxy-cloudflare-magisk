@@ -1,4 +1,4 @@
-# DNSCrypt Proxy 2 for Android (Cisco-only)
+# DNSCrypt Proxy 2 for Android (Cloudflare-only)
 
 **Fork notice** - This is a very simple fork that makes *DNSCrypt Proxy 2* use Cloudflare servers only.
 
@@ -14,31 +14,6 @@ A flexible DNS proxy, with support for modern encrypted DNS protocols such as [D
 ## Configuration (post-installing)
 - Configuration located on `/system/etc/dnscrypt-proxy/dnscrypt-proxy.toml`
 - For more detailed configuration please refer to [official documentation](https://github.com/jedisct1/dnscrypt-proxy/wiki/Basic-dnscrypt-proxy.toml-editing)
-
-
-## Changelog
-### v2.2.0 - 04.04.2018
-* Update binary files to 2.0.8
-### v2.1.3 - 03.18.2018
-* __If you have previous version, please uninstall it first then reinstall it again or you can change listen port manually in `dnscrypt-proxy.toml` file.__
-* Fix Tethering Client cannot Resolve DNSCrypt
-* Fix Chromecast devices not showing [jedisct1/dnscrypt-proxy#226](https://github.com/jedisct1/dnscrypt-proxy/issues/226)
-* Add binary files for x86 and x86_64 (test)
-### v2.1.2 - 03.07.2018
-* Bug Fixes
-### v2.1.1 - 03.07.2018
-* Bug fixes
-### v2.1 - 03.07.2018
-* Bug fixes
-### v2.0 - 03.07.2018
-* Resolve download.dnscrypt.info first before executing `iptables`
-* Don't override dnscrypt-proxy.toml if exist
-* Update binary files to v2.0.6
-### v1.1 - 02.27.2018
-* Change listen port to 5353 (avoid conflict while tethering)
-### v1.0 - 02.27.2018
-* Initial release
-* dnscrypt-proxy v2.0.5
 
 
 ## Credit
