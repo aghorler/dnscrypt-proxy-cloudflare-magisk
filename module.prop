@@ -1,7 +1,7 @@
 id=dnscrypt-proxy-cloudflare
 name=DNSCrypt-Proxy 2 (Cloudflare-only)
-version=v3.0.1
-versionCode=14
+version=v3.0.2
+versionCode=15
 author=aghorler
 description=A Cloudflare-only fork of bluemeda's DNSCrypt Proxy 2 for Android Magisk module.
 minMagisk=1500

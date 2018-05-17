@@ -103,6 +103,10 @@ install_dnscrypt_proxy(){
     BINARY_PATH=$INSTALLER/binary/dnscrypt-proxy-arm
   elif [ "$ARCH" == "arm64" ];then
     BINARY_PATH=$INSTALLER/binary/dnscrypt-proxy-arm64
+  elif [ "$ARCH" == "x86" ];then
+    BINARY_PATH=$INSTALLER/binary/dnscrypt-proxy-x86
+  elif [ "$ARCH" == "x64" ];then
+    BINARY_PATH=$INSTALLER/binary/dnscrypt-proxy-x86_64
   fi
 
   OLD_CONFIG_FILE=$MODDIR/system/etc/dnscrypt-proxy/dnscrypt-proxy.toml
@@ -139,11 +143,8 @@ install_dnscrypt_proxy(){
   if [ ! -f "$OLD_CONFIG_FILE" ]; then
     ui_print "* Copying config files"
     cp -af $CONFIG_PATH/example-dnscrypt-proxy.toml $NEW_CONFIG_FILE
-    sed -i -e 's/127.0.0.1:53/127.0.0.1:5354/g' $NEW_CONFIG_FILE
-    sed -i -e 's/\[::1\]:53/\[::1\]:5354/g' $NEW_CONFIG_FILE
   else
     ui_print "* Restoring config files"
     cp -af $TMPDIR/dnscrypt-proxy.toml $NEW_CONFIG_FILE
   fi
-
 }
